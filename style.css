@@ -8,3 +8,87 @@ body {
     grid-template-columns: 1fr 5fr;
     background-color: #0d1117;
 }
+
+ul {
+    list-style: none;
+    padding: 0%;
+}
+
+.header {
+    grid-column: 2 / 3;
+    border-style: solid;
+    border-color: #30363d;
+    background-color: #161b22;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+    color: white;
+    height: 15vh;
+}
+
+.search-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-group img {
+    margin-top: 10px;
+    width: 1.9rem;
+}
+
+form {
+    width: 80%;
+}
+
+#search-bar {
+    margin-top: 10px;
+    height: 2.5vh;
+    width: 100%;
+    background-color: #30363d;
+    border-radius: 6px 6px;
+    color: white;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: end;
+    font-size: 1.6rem;
+    width: 70%;
+}
+
+.logo h2 {
+    align-self: center;
+}
+
+.first-half-of-header {
+    gap: 15px;
+}
+
+.first-half-of-header,
+.second-half-of-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.second-logo {
+    display: flex;
+    margin-left: 10%;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.upload-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.upload-options button {
+    background-color: #21262d;
+    border-radius: 15%;
+    color: #c9d1d9;
+    width: 80%;
+    height: 2.5vh;
+}
