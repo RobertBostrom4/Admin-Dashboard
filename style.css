@@ -92,3 +92,60 @@ form {
     width: 80%;
     height: 2.5vh;
 }
+
+.dashboard {
+    background-color: #161b22;
+    border-style: solid;
+    border-color: #30363d;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+    grid-row: 1 / 4;
+    color: white;
+    font-weight: bolder;
+    display: grid;
+    grid-template-rows: 10% 0.9fr 0.9fr;
+}
+
+.dash-header {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: left;
+    font-size: 1.2rem;
+}
+
+.dash-header h2 {
+    display: flex;
+    align-items: center;
+}
+
+
+.dashboard button {
+    text-align: start;
+    width: 55%;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    line-height: 2.5;
+    display: flex;
+}
+
+.dashboard li {
+    display: flex;
+}
+
+h2,
+ul {
+    margin: 0;
+}
+
+h2 {
+    color: white;
+}
+
+img {
+    width: 3rem;
+    filter: brightness(0) invert(1);
+}
