@@ -204,3 +204,31 @@ img {
 .project-options img {
     width: 1.8rem;
 }
+
+.announcements {
+    grid-row: 2;
+    color: white;
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.announcement-content {
+    display: flex;
+    flex-flow: column;
+    border-radius: 4%;
+    background-color: #161b22;
+    width: 25vw;
+    align-items: center;
+}
+
+.announcement-content li {
+    width: 80%
+}
+
+.announcement-content li:nth-child(-n+2) {
+    border-bottom-style: solid;
+    border-bottom-color: #21262d;
+}
