@@ -232,3 +232,11 @@ h3 {
     border-bottom-style: solid;
     border-bottom-color: #21262d;
 }
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    gap: 20px;
+
+}
